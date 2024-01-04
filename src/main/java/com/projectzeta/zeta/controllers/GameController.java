@@ -14,7 +14,7 @@ public class GameController {
     @GetMapping("/elnombre")
     public ResponseEntity<String> getNombre(){
 
-        String elnombre = "el nombre";
+        String elnombre = "el nombsre";
         return new ResponseEntity<String>(elnombre, HttpStatus.OK);
 
     }
