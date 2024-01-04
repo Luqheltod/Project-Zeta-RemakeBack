@@ -11,11 +11,11 @@
         <relativePath/>
         <!--  lookup parent from repository  -->
     </parent>
-    <groupId>com.proyectzeta</groupId>
+    <groupId>com.projectzeta</groupId>
     <artifactId>zeta</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Proyect Zeta</name>
-    <description>La original novela interactiva Proyect Zeta</description>
+    <name>Prject Zeta</name>
+    <description>La original novela interactiva Project Zeta</description>
     <properties>
         <java.version>21</java.version>
     </properties>
