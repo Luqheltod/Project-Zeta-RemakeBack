@@ -1,0 +1,11 @@
+#BBDD
+datasource.url=
+datasource.username=ggdff
+datasource.password=ff
+datasource.driver=ffff
+
+#Mybatis configuration for underscore to camel-case
+mybatis.configuration.map-underscore-to-camel-case=true
+
+
+#otra configuracion
