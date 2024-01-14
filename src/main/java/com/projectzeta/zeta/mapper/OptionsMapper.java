@@ -1,6 +1,7 @@
 package com.projectzeta.zeta.mapper;
 
-import com.projectz.back.model.Options;
+
+import com.projectzeta.zeta.models.Options;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

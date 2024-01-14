@@ -1,7 +1,8 @@
 package com.projectzeta.zeta.mapper;
 
 
-import com.projectz.back.model.RestDto;
+
+import com.projectzeta.zeta.models.RestDto;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

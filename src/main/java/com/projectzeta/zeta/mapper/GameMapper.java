@@ -1,7 +1,8 @@
 package com.projectzeta.zeta.mapper;
 
-import com.projectz.back.model.InstadeathDto;
-import com.projectz.back.model.Stage;
+
+import com.projectzeta.zeta.models.InstadeathDto;
+import com.projectzeta.zeta.models.Stage;
 import org.apache.ibatis.annotations.*;
 
 

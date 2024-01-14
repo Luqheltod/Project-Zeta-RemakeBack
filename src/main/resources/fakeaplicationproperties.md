@@ -1,10 +1,10 @@
-Este archivo contiene datos que se pueden usar para application properties pero sin contraseñas o datos sensibles
+Este archivo contiene datos que se usan para application properties pero sin contraseñas o datos sensibles
 
 #BBDD
-datasource.url=
-datasource.username=ggdff
-datasource.password=ff
-datasource.driver=ffff
+spring.datasource.url=jdbc:
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.driver-class-name=
 
 #Mybatis configuration for underscore to camel-case
 mybatis.configuration.map-underscore-to-camel-case=true

@@ -1,5 +1,10 @@
 package com.projectzeta.zeta.controllers;
 
+import com.projectzeta.zeta.models.InstadeathDto;
+import com.projectzeta.zeta.models.RestDto;
+import com.projectzeta.zeta.models.Stage;
+import com.projectzeta.zeta.service.GameService;
+import com.projectzeta.zeta.service.RestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,13 +23,7 @@ public class GameController {
     @Autowired
     RestService restService;
 
-    @GetMapping("/elnombre")
-    public ResponseEntity<String> getNombre(){
 
-        String elnombre = "el nombsre";
-        return new ResponseEntity<String>(elnombre, HttpStatus.OK);
-
-    }
 
     @GetMapping("/stage/{idStage}")
     public ResponseEntity<Stage> getStageInfo(@PathVariable Long idStage) {
@@ -70,4 +69,4 @@ public class GameController {
     }
 }
 
-}
+
