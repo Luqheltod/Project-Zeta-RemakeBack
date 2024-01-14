@@ -5,8 +5,7 @@ target/
 
 HELP.md
 
-### Sensitive Data ###
-src/main/resources/application.properties
+application.properties
 
 ### STS ###
 .apt_generated
