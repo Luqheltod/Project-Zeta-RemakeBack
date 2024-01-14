@@ -5,6 +5,8 @@ target/
 
 HELP.md
 
+application.properties
+
 ### STS ###
 .apt_generated
 .classpath
