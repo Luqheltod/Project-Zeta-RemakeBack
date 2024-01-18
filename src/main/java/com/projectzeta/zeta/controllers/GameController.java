@@ -63,7 +63,7 @@ public class GameController {
             return new ResponseEntity<InstadeathDto>(instadeathInfo, HttpStatus.OK);
         } catch (Exception e) {
 
-            return new ResponseEntity<InstadeathDto>(HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
     }
