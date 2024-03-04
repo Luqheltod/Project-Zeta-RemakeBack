@@ -15,7 +15,7 @@ public interface GameMapper {
 	"SELECT * FROM pzz.stage WHERE id_stage =#{idStage}"})
 	@Results(value = {
 			
-			@Result(property = "options", column = "id_stage", many = @Many(select = "com.projectz.back.mapper.OptionsMapper.getOptionsFromStageId"))
+			@Result(property = "options", column = "id_stage", many = @Many(select = "com.projectzeta.zeta.mapper.OptionsMapper.getOptionsFromStageId"))
 		
 	})
 	public Stage getStageInfoById(@Param("idStage")Long id);
